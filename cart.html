@@ -440,7 +440,7 @@ var obj = JSON.parse(localStorage.getItem("signindata"));
     function addItems(ele,elem){
         count++;
         quantityValue.innerText = count;
-        price = price+(elem.Price)
+        price = Number(price) + Number(elem.Price) ;
         document.querySelector("#totalPrice").innerText = "Price: " + "Rs" + " " + price;
         n++;
         document.querySelector("#cartItems").innerText = "Total items: " + n;
