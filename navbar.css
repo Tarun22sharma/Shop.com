@@ -123,7 +123,7 @@ font-family: 'Roboto', sans-serif;
     color:rgb(146, 177, 235);
   }
 #sea{
-  width:272%;
+  width:100%;
   padding-top:11px;
   padding-bottom:10px;
   padding-left: -10px;
@@ -131,6 +131,12 @@ font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-style: italic;
   height:100%;
+}
+#srch{
+  width:60%;
+}
+.ccol{
+  width:20%;
 }
 #sea2{
   width:103%;
@@ -146,10 +152,11 @@ font-family: 'Roboto', sans-serif;
   border-bottom-left-radius: 20px;
 }
 .csea2{
-  margin-left:-47%;
+  width:75%;
   background-color: white;
 }
 #csea3{
+  width:10%;
   background-color:#3f4366;
   height:100%;
   border-top-right-radius: 20px;
